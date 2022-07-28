@@ -1,8 +1,25 @@
 import React from "react";
-import { Wrapper } from "./styles";
+import { Wrapper, LeftSide, Title, SubText, RightSide } from "./styles";
+
+import { MainButton } from "../common-styles";
+import MobileAppSvg from "../../assets/MobileAppSvg";
 
 const WelcomeSection = () => {
-    return <Wrapper>aaaa</Wrapper>;
+    return (
+        <Wrapper>
+            <LeftSide>
+                <Title>Abra sua conta digital gratuita</Title>
+                <SubText>
+                    Mais que uma conta digital completa: um super app com vários
+                    serviços para simplificar seu dia a dia.
+                </SubText>
+                <MainButton>Abra sua conta</MainButton>
+            </LeftSide>
+            <RightSide>
+                <MobileAppSvg width="110%" />
+            </RightSide>
+        </Wrapper>
+    );
 };
 
 export default WelcomeSection;

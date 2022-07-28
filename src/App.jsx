@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { createGlobalStyle } from "styled-components";
+import CreditCardSection from "./components/creditCardSection/creditCardSection";
 
 // Components
 import Navbar from "./components/navbar/NavBar";
@@ -20,11 +21,21 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const App = () => {
+    const [offset, setOffset] = useState(0);
+
+    useEffect(() => {
+        window.onscroll = () => {
+            setOffset(window.pageYOffset);
+        };
+    }, []);
+
+    console.log(offset);
     return (
         <>
             <GlobalStyle />
-            <Navbar />
-            <WelcomeSection></WelcomeSection>
+            <Navbar paddingSize={offset} />
+            <WelcomeSection />
+            <CreditCardSection />
         </>
     );
 };

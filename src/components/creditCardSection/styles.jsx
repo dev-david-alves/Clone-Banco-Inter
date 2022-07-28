@@ -8,6 +8,7 @@ export const Wrapper = styled.section`
     height: 100vh;
     padding-top: 5rem;
     overflow: hidden;
+    background-color: #f5f6fa;
 `;
 
 export const LeftSide = styled.div`
@@ -23,11 +24,11 @@ export const Title = styled.h2`
     font-size: 5rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.3rem;
 `;
 
 export const SubText = styled.p`
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     margin-bottom: 4rem;
     color: #5e5e5e;
 `;
