@@ -48,6 +48,10 @@ export const CreateAccountButton = styled.button`
     border-radius: 0.7rem;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background-color: #ff5e00;
+    }
 `;
 
 export const LoginAccount = styled(CreateAccountButton)`
@@ -55,4 +59,9 @@ export const LoginAccount = styled(CreateAccountButton)`
     color: #ff7a00;
     border: 1px solid #ff7a00;
     margin-left: 1rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #ffffff;
+    }
 `;
