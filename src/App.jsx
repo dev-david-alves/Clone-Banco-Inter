@@ -7,6 +7,8 @@ import WelcomeSection from "./components/welcomeSection";
 import CreditCardSection from "./components/creditCardSection";
 import PixSection from "./components/pixSection";
 import CreateAccountSection from "./components/createAccountSection";
+import AboutUsSection from "./components/aboutUsSection";
+import Footer from "./components/footer";
 
 // Global styles
 const GlobalStyle = createGlobalStyle`
@@ -39,6 +41,8 @@ const App = () => {
             <CreditCardSection />
             <PixSection />
             <CreateAccountSection />
+            <AboutUsSection />
+            <Footer />
         </>
     );
 };

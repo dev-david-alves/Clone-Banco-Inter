@@ -11,4 +11,9 @@ export const MainButton = styled.button`
     border: none;
     border-radius: 0.7rem;
     cursor: pointer;
+    transition: all 0.6s ease-in-out;
+
+    &:hover {
+        background-color: #ff5e00;
+    }
 `;
