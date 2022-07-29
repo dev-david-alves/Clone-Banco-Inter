@@ -16,7 +16,7 @@ const WelcomeSection = () => {
                 <MainButton>Abra sua conta</MainButton>
             </LeftSide>
             <RightSide>
-                <MobileAppSvg width="110%" />
+                <MobileAppSvg width="100%" height="auto" />
             </RightSide>
         </Wrapper>
     );

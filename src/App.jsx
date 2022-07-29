@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { createGlobalStyle } from "styled-components";
-import CreditCardSection from "./components/creditCardSection/creditCardSection";
 
 // Components
-import Navbar from "./components/navbar/NavBar";
-import WelcomeSection from "./components/welcomeSection/WelcomeSection";
+import Navbar from "./components/navbar";
+import WelcomeSection from "./components/welcomeSection";
+import CreditCardSection from "./components/creditCardSection";
+import PixSection from "./components/pixSection";
 
 // Global styles
 const GlobalStyle = createGlobalStyle`
@@ -29,13 +30,13 @@ const App = () => {
         };
     }, []);
 
-    console.log(offset);
     return (
         <>
             <GlobalStyle />
             <Navbar paddingSize={offset} />
             <WelcomeSection />
             <CreditCardSection />
+            <PixSection />
         </>
     );
 };

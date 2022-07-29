@@ -1,6 +1,6 @@
 import React from "react";
 
-const MobileAppSvg = (props) => {
+const CreditCardSvg = (props) => {
     return (
         <svg
             width="904.36151"
@@ -240,4 +240,4 @@ const MobileAppSvg = (props) => {
     );
 };
 
-export default MobileAppSvg;
+export default CreditCardSvg;

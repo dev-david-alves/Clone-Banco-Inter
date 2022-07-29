@@ -2,7 +2,7 @@ import React from "react";
 import { Wrapper, LeftSide, Title, SubText, RightSide } from "./styles";
 
 import { MainButton } from "../common-styles";
-import CreditCard from "../../assets/CreditCard";
+import CreditCard from "../../assets/CreditCardSvg";
 
 const CreditCardSection = () => {
     return (
@@ -17,7 +17,7 @@ const CreditCardSection = () => {
                 <MainButton>Abra sua conta</MainButton>
             </LeftSide>
             <RightSide>
-                <CreditCard width="110%" />
+                <CreditCard width="100%" height="auto" />
             </RightSide>
         </Wrapper>
     );

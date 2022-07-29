@@ -8,7 +8,7 @@ import {
     LoginAccount,
 } from "./styles";
 
-import InterLogo from "../../assets/logo-inter.png";
+import InterLogo from "../../assets/logoInter.png";
 
 const Navbar = ({ paddingSize }) => {
     return (
