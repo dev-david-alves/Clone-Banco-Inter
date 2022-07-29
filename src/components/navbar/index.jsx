@@ -15,10 +15,10 @@ const Navbar = ({ paddingSize }) => {
         <Nav paddingSize={paddingSize}>
             <Logo src={InterLogo} alt="Logo Inter" paddingSize={paddingSize} />
             <MenuWrapper>
-                <NavLink href="#">Link 01</NavLink>
-                <NavLink href="#">Link 02</NavLink>
-                <NavLink href="#">Link 03</NavLink>
-                <NavLink href="#">Link 04</NavLink>
+                <NavLink href="#">Cartão de Crédito</NavLink>
+                <NavLink href="#">Pix, Transferências e Saques</NavLink>
+                <NavLink href="#">Como abrir conta</NavLink>
+                <NavLink href="#">Quem somos</NavLink>
                 <CreateAccountButton paddingSize={paddingSize}>
                     Abrir sua conta
                 </CreateAccountButton>

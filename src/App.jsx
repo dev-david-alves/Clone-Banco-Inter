@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import WelcomeSection from "./components/welcomeSection";
 import CreditCardSection from "./components/creditCardSection";
 import PixSection from "./components/pixSection";
+import CreateAccountSection from "./components/createAccountSection";
 
 // Global styles
 const GlobalStyle = createGlobalStyle`
@@ -37,6 +38,7 @@ const App = () => {
             <WelcomeSection />
             <CreditCardSection />
             <PixSection />
+            <CreateAccountSection />
         </>
     );
 };
