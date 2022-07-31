@@ -15,11 +15,13 @@ import {
 import { MainButton } from "../common-styles";
 import CreateAccount from "../../assets/CreateAccountSvg";
 
+import { svgWidth } from "../common-styles";
+
 const CreateAccountSection = () => {
     return (
         <Wrapper id="howToOpenAccount">
             <LeftSide>
-                <CreateAccount width="100%" height="auto" />
+                <CreateAccount style={svgWidth} />
             </LeftSide>
             <RightSide>
                 <Title>Como abrir sua conta pelo celular</Title>

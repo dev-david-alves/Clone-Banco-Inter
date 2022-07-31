@@ -17,3 +17,12 @@ export const MainButton = styled.button`
         background-color: #ff5e00;
     }
 `;
+
+export const svgWidth = {
+    width: "100%",
+    height: "auto",
+
+    "@media (max-width: 992px)": {
+        width: "80%",
+    },
+};

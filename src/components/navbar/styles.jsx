@@ -11,6 +11,15 @@ export const Nav = styled.nav`
     left: 0;
     width: 100%;
     transition: all 0.5s ease-in-out;
+
+    @media (max-width: 992px) {
+        padding: 1.7rem 2rem;
+    }
+
+    @media (max-width: 1200px) {
+        padding: 1.4rem 1.7rem;
+        flex-direction: column;
+    }
 `;
 
 export const Logo = styled.img`
@@ -18,11 +27,20 @@ export const Logo = styled.img`
     height: auto;
     margin-right: 1rem;
     transition: all 0.5s ease-in-out;
+
+    // responsive
+    @media (max-width: 992px) {
+        width: 6rem;
+    }
 `;
 
 export const MenuWrapper = styled.div`
     display: flex;
     align-items: center;
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
 `;
 
 export const NavLink = styled.a`
@@ -33,6 +51,29 @@ export const NavLink = styled.a`
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0 1rem;
+
+    @media (max-width: 992px) {
+        font-size: 1.2rem;
+        margin: 1rem 0.3rem;
+    }
+`;
+
+export const LinkWrapper = styled.div`
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 992px) {
+        width: 100%;
+    }
+`;
+
+export const ButtonWrapper = styled.div`
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 992px) {
+        width: 100%;
+    }
 `;
 
 export const CreateAccountButton = styled.button`
@@ -51,6 +92,13 @@ export const CreateAccountButton = styled.button`
 
     &:hover {
         background-color: #ff5e00;
+    }
+
+    @media (max-width: 992px) {
+        margin-left: 0;
+        padding: 0.8rem 0.8rem;
+        font-size: 1.2rem;
+        width: 100%;
     }
 `;
 

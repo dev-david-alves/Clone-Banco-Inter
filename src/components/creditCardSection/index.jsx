@@ -4,6 +4,8 @@ import { Wrapper, LeftSide, Title, SubText, RightSide } from "./styles";
 import { MainButton } from "../common-styles";
 import CreditCard from "../../assets/CreditCardSvg";
 
+import { svgWidth } from "../common-styles";
+
 const CreditCardSection = () => {
     return (
         <Wrapper id="creditCard">
@@ -17,7 +19,7 @@ const CreditCardSection = () => {
                 <MainButton>Abra sua conta</MainButton>
             </LeftSide>
             <RightSide>
-                <CreditCard width="100%" height="auto" />
+                <CreditCard style={svgWidth} />
             </RightSide>
         </Wrapper>
     );

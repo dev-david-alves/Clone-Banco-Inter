@@ -1,60 +1,15 @@
 import styled from "styled-components";
 
-export const Nav = styled.nav`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: ${(props) => (props.paddingSize > 200 ? "1.7rem" : "4rem")} 12rem;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: all 0.5s ease-in-out;
-`;
-
 export const Logo = styled.img`
-    width: ${(props) => (props.paddingSize > 200 ? "6rem" : "8rem")};
+    width: 8rem;
     height: auto;
     margin-right: 1rem;
     transition: all 0.5s ease-in-out;
-`;
 
-export const MenuWrapper = styled.div`
-    display: flex;
-    align-items: center;
-`;
-
-export const NavLink = styled.a`
-    display: block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: #161616;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 0 1rem;
-`;
-
-export const CreateAccountButton = styled.button`
-    display: block;
-    padding: ${(props) => (props.paddingSize > 200 ? "0.8rem" : "1.3rem")} 2rem;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: ${(props) => (props.paddingSize > 200 ? "1.2rem" : "1.6rem")};
-    font-weight: 500;
-    margin-left: 4rem;
-    background-color: #ff7a00;
-    border: none;
-    border-radius: 0.7rem;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-`;
-
-export const LoginAccount = styled(CreateAccountButton)`
-    background-color: transparent;
-    color: #ff7a00;
-    border: 1px solid #ff7a00;
-    margin-left: 1rem;
+    @media (max-width: 768px) {
+        width: 6rem;
+        margin-bottom: 2rem;
+    }
 `;
 
 export const FooterDiv = styled.footer`
@@ -63,6 +18,10 @@ export const FooterDiv = styled.footer`
     align-items: center;
     justify-content: center;
     padding: 4rem 12rem;
+
+    @media (max-width: 768px) {
+        padding: 4rem;
+    }
 `;
 
 export const UpSection = styled.div`
@@ -70,15 +29,25 @@ export const UpSection = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 4rem;
-    padding-bottom: 4rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
     border-bottom: 2px solid #e5e5e5;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
 `;
 
 export const RightsText = styled.p`
     font-size: 1.5rem;
     color: #424242;
     font-weight: 700;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+    }
 `;
 
 export const InterAnchor = styled(RightsText)`
@@ -124,6 +93,12 @@ export const SocialIcon = styled.a`
     &:hover {
         background-color: #ff5e00;
     }
+
+    @media (max-width: 768px) {
+        width: 4rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
 `;
 
 export const Author = styled.p`
@@ -131,6 +106,10 @@ export const Author = styled.p`
     color: #161616;
     font-weight: 400;
     display: inline-block;
+
+    @media (max-width: 768px) {
+        font-size: 1.6rem;
+    }
 `;
 
 export const AuthorName = styled(Author)`

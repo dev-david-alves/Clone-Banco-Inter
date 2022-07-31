@@ -4,11 +4,13 @@ import { Wrapper, LeftSide, Title, SubText, RightSide } from "./styles";
 import { MainButton } from "../common-styles";
 import MobileUser from "../../assets/MobileUserSvg";
 
+import { svgWidth } from "../common-styles";
+
 const PixSection = () => {
     return (
         <Wrapper id="pixTransfer">
             <LeftSide>
-                <MobileUser width="100%" height="auto" />
+                <MobileUser style={svgWidth} />
             </LeftSide>
             <RightSide>
                 <Title>Pix, transferências e saques gratuitos</Title>

@@ -4,6 +4,8 @@ import { Wrapper, LeftSide, Title, SubText, RightSide } from "./styles";
 import { MainButton } from "../common-styles";
 import MobileAppSvg from "../../assets/MobileAppSvg";
 
+import { svgWidth } from "../common-styles";
+
 const WelcomeSection = () => {
     return (
         <Wrapper>
@@ -16,7 +18,7 @@ const WelcomeSection = () => {
                 <MainButton>Abra sua conta</MainButton>
             </LeftSide>
             <RightSide>
-                <MobileAppSvg width="100%" height="auto" />
+                <MobileAppSvg style={svgWidth} />
             </RightSide>
         </Wrapper>
     );
