@@ -17,7 +17,7 @@ import CreateAccount from "../../assets/CreateAccountSvg";
 
 const CreateAccountSection = () => {
     return (
-        <Wrapper>
+        <Wrapper id="howToOpenAccount">
             <LeftSide>
                 <CreateAccount width="100%" height="auto" />
             </LeftSide>

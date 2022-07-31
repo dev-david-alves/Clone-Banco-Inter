@@ -6,7 +6,7 @@ import CreditCard from "../../assets/CreditCardSvg";
 
 const CreditCardSection = () => {
     return (
-        <Wrapper>
+        <Wrapper id="creditCard">
             <LeftSide>
                 <Title>Cartão de crédito sem anuidade e com cashback</Title>
                 <SubText>

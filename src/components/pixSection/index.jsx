@@ -6,7 +6,7 @@ import MobileUser from "../../assets/MobileUserSvg";
 
 const PixSection = () => {
     return (
-        <Wrapper>
+        <Wrapper id="pixTransfer">
             <LeftSide>
                 <MobileUser width="100%" height="auto" />
             </LeftSide>

@@ -24,7 +24,7 @@ const AboutUsSection = () => {
     };
 
     return (
-        <Wrapper>
+        <Wrapper id="aboutUs">
             <LeftSide>
                 <Title>Por que não cobramos tarifas?</Title>
                 <SubText>
