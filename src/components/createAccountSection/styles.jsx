@@ -124,4 +124,5 @@ export const StepTextLink = styled(StepText)`
     display: inline-block;
     font-weight: 700;
     margin: 0;
+    text-decoration: none;
 `;

@@ -32,8 +32,10 @@ const CreateAccountSection = () => {
                         </StepNumberDiv>
                         <StepText>
                             Baixe o{" "}
-                            <StepTextLink href="#">Super App</StepTextLink> na
-                            sua loja, Apple Store ou Google Play
+                            <StepTextLink as="a" href="#">
+                                Super App
+                            </StepTextLink>{" "}
+                            na sua loja, Apple Store ou Google Play
                         </StepText>
                     </ListItem>
                     <ListItem>

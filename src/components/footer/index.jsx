@@ -24,7 +24,7 @@ const Footer = () => {
             <UpSection>
                 <Logo src={InterLogo} alt="Logo Inter" />
                 <RightsText>
-                    Este site é apenas um projeto de estudo, não tenho o
+                    Este website é apenas um projeto de estudo, não tenho o
                     objetivo de lucrar com ele ou de infringir os direitos
                     autorais do{" "}
                     <InterAnchor

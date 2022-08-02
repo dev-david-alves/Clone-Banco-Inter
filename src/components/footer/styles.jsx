@@ -101,7 +101,7 @@ export const SocialIcon = styled.a`
     }
 `;
 
-export const Author = styled.p`
+export const Author = styled.address`
     font-size: 1.8rem;
     color: #161616;
     font-weight: 400;

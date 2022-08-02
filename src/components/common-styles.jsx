@@ -22,7 +22,7 @@ export const svgWidth = {
     width: "100%",
     height: "auto",
 
-    "@media (max-width: 992px)": {
+    "@media (maxWidth: 992px)": {
         width: "80%",
     },
 };
